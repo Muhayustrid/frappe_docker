@@ -26,6 +26,8 @@ This file contains bench-wide rules for `/Users/rotiropi/DockerERPNext/frappe_do
 - Do not commit, push, publish, deploy, reset, clean, stash, migrate production, or begin a later implementation phase without explicit user approval.
 - Do not revert or overwrite worktree changes you did not make.
 - Do not delete a directory without explicit user approval unless deletion is strictly required for an explicitly requested application objective; inspect it first and state the concrete technical reason before deleting.
+- Use the native `EnterWorktree` tool for non-trivial implementation, bug fixes, refactors, and multi-file changes; edit the active checkout directly only for trivial documentation or configuration changes.
+- Do not remove a worktree without explicit user approval.
 
 ## Frappe Skill and Verification
 
